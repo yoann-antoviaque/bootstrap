@@ -233,7 +233,7 @@ angular.module('ui.bootstrap.dropdown', ['ui.bootstrap.position'])
   var offDestroy = $scope.$on('$destroy', function() {
     scope.$destroy();
   });
-  scope.$on("$destroy", offDestroy);
+  scope.$on('$destroy', offDestroy);
 }])
 
 .directive('dropdown', function() {
